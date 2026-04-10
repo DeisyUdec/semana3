@@ -14,5 +14,14 @@ Actividad: Implementación de codigo con 2 metricas y loss.
 8. se gráfica en donde se crea un ciclo para que muestre el recorrido de cada modelo entrenado con su respectiva de error de entrenamiento y error de validación.
 
 **conclusiones**
-<img width="419" height="249" alt="image" src="https://github.com/user-attachments/assets/6529386b-32e9-42a1-a849-45eeddbb6e89" />
+<img width="1264" height="590" alt="image" src="https://github.com/user-attachments/assets/993608e7-6797-4b88-aa93-47134b4a81cd" />
+
+Teniendo en cuenta el resultado se puede identificar que de 30 interacciones y un porcenje de 20% de validación el mas efectivo es el de Adam debido a que mas o menos en inyteracicion 28 se esta aproximando a 0 y en el entrenamiento gana SGD que busca bajar a 1.
+
+<img width="736" height="385" alt="image" src="https://github.com/user-attachments/assets/b747f2ee-362f-40c9-a03b-869aab41eef3" />
+Teniendo en cuenta el resultado se puede identificar que de 90 interacciones y un porcenje de 20% de validación el mas efectivo es el de Adam debido a que mas o menos en inyteracicion 70 se esta aproximando a 0 y en la validación  gana SGD que busca bajar a 1.
+
+En conclusión en mas eficiente es el Adam debido a clasificación evidencia de entrenamiento debido que SGD tarda para poder bajar a 0.
+
+
 
